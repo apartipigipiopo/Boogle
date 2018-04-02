@@ -1,0 +1,264 @@
+/* General Formating */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: right;
+  font-size: 14px;
+  height: 10px;
+  margin: 20px 50px 150px 0;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation Formating */
+.navigButton {
+  display: inline;
+  margin: 16px 8px;
+}
+
+.imagenavigButton:hover {
+  box-shadow: 0 0 10px #C0C0C0;
+}
+
+.booApps {
+  width: 32px;
+  margin: 0 8px -10px 8px;
+}
+
+.loginButton {
+  font-family: arial,sans-serif;
+  color: #fff;
+  background: #4169E1;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+/* Middle Part Formating */
+#centerLogo {
+  width: 320px;
+  display: block;
+  margin: 80px auto;
+}
+
+/* Search Box */
+#searchBox {
+  display: block;
+  width: 700px;
+  height: 40px;
+  margin: 0 auto 32px auto;
+  border: none;
+  outline: 1px solid rgba(190, 190, 190, 0.58);
+}
+
+#searchBox:hover {
+  outline: none;
+  box-shadow: 0 0 10px #C0C0C0;
+}
+
+#searchBox:enabled {
+  box-shadow: 0 0 10px #C0C0C0;
+}
+
+/* Buttons */
+.searchButtonContainer {
+  text-align: center;
+}
+
+.searchButton {
+  margin: 16px 8px;
+  font-weight: bold;
+  color: rgb(111, 111, 111);
+  font-size: 16px;
+  text-decoration: none;
+  background: rgba(199, 199, 199, 0.2);
+  padding: 12px 15px  ;
+}
+
+.searchButton:hover {
+  box-shadow: 0 0 10px #C0C0C0;
+}
+
+/* General Footer Formating */
+footer {
+  color: rgb(111, 111, 111);
+  position: relative;
+  background: rgba(199, 199, 199, 0.2);
+  height: 100px;
+  margin: 85px auto 0 auto;
+  padding: 16px 32px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+/* Left Side Footer Formating */
+.bottomLeft {
+  position: absolute;
+  color: rgb(111, 111, 111);
+  font-size: 15px;
+  max-width: 350px;
+  left: 16px;
+  bottom: 16px;
+}
+
+/* Right Side Footer Formating */
+.bottomRight {
+  position: absolute;
+  color: rgb(111, 111, 111);
+  font-size: 15px;
+  max-width: 350px;
+  right: 16px;
+  bottom: 16px;
+}
+
+.bottomButton {
+  margin: 0 16px 0 0;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(111, 111, 111);
+}
+
+/* Log-In page formating */
+
+header {
+  font-size: 14px;
+  height: 10px;
+  margin: 5px 5px 5px 0;
+}
+
+#loginpage {
+  position: relative;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  background: white;
+  padding-bottom: 10px;
+}
+
+/* Logo */
+#booglelogo {
+  width: 80px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Header text */
+h1,
+h2 {
+  text-align: center;
+  margin: 5px auto;
+}
+
+h1{
+  font-size: 20px;
+}
+
+h2{
+  font-size: 14px;
+}
+
+/* Middle Part */
+#logindetails {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding: 15px;
+  background: lightgrey;
+  padding-bottom: 70px;
+  box-shadow: 0 0 4px grey;
+}
+
+#loginman {
+  width: 80px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+}
+
+.inputText {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+  margin: auto;
+  padding: 10px;
+  border: solid lightgrey 2px;
+}
+
+.nextbutton {
+  text-align: center;
+  display: block;
+  width: 250px;
+  font-family: arial,sans-serif;
+  color: #fff;
+  background: #4169E1;
+  margin: auto;
+  padding: 10px;
+}
+
+.needhelpbutton {
+  text-align: right;
+  display: block;
+  width: 250px;
+  font-family: arial,sans-serif;
+  margin: 10px 0 0 0;
+  color: blue;
+}
+
+.createaccount {
+  text-align: center;
+  display: block;
+  width: 250px;
+  font-family: arial,sans-serif;
+  margin: auto;
+  padding: 10px;
+  color: blue;
+}
+
+.img {
+display: inline;
+margin: 0px;
+padding: 0px;
+width: 20px;
+}
+
+#smallicons {
+display: block;
+margin: 0 0 0 165px;
+padding: 0px;
+position: relative;
+height: auto;
+max-width: auto;
+}
+
+/* Footer */
+.loginfooter {
+  position: relative;
+  color: rgb(111, 111, 111);
+  height: 30px;
+  margin: 10px auto 0 auto;
+  padding: 16px 32px;
+}
